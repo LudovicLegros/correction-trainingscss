@@ -1,12 +1,28 @@
+@use "../abstract/variable" as v;
+
 @media screen and (max-width:700px){
 
     .menu_dropdown{
+
+      
+
         .fa-bars{
             display:block ;
         }
 
         ul{
             display:none;
+            position:absolute;
+            width: 110vw;
+            left:-5vw;
+            top:3rem;
+            text-align: center;
+
+            li{
+                padding:1rem;
+                border:1px solid grey;
+                background-color: rgba(0, 0, 0, 0.842);
+            }
         }
     }
 

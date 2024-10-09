@@ -2,7 +2,26 @@
 
 header{
     background-color: v.$couleur-principale;
+    position:relative;
 }
+
+nav{
+    height: 3rem;
+    // padding:0 1rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    ul{
+        display:flex;
+
+        li{
+            margin-left:1rem;
+        }
+    }
+}
+
+
 
 .menu_dropdown .fa-bars{
     display:none;
