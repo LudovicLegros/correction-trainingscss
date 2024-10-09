@@ -1,3 +1,13 @@
+@use "../abstract/mixin" as m;
+
 main{
     padding:1rem;
+}
+
+h2{
+    @include m.title;
+}
+
+#bleach h2{
+    @include m.title(orange)
 }
